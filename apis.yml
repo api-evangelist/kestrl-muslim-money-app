@@ -1,8 +1,14 @@
 aid: kestrl-muslim-money-app
 name: 'Kestrl: Muslim Money App'
-description: 'Kestrl: Muslim Money App is a company surfaced as a portfolio company of techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Kestrl is a UK-based, FCA-regulated ethical fintech offering a values-aligned
+  money app for Muslim and ethically-minded consumers. In partnership with Maybank Islamic,
+  it provides interest-free (Sharia-compliant) banking, a Mastercard debit card with values
+  filtering, goal-based sub-accounts, interest purification and Zakat calculation, transaction
+  monitoring that alerts users to payments toward ethically questionable companies, and
+  security features such as card freezing and biometric authentication. Kestrl is a consumer
+  mobile application on iOS and Android; it does not currently publish a public developer
+  API, SDK, or developer portal. This profile was surfaced as a Techstars portfolio company
+  and enriched from public web sources.'
 url: https://raw.githubusercontent.com/api-evangelist/kestrl-muslim-money-app/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +16,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/1e1bojrtBFw4okK5e6fAdfRk.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Islamic Finance
+- Ethical Banking
+- Personal Finance
+- Mobile Banking
+- Payments
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/kestrl-muslim-money-app-domain-security.yml
 - type: Website
   url: https://kestrl.io/
+- type: Support
+  url: https://support.kestrl.io/en/
+- type: TermsOfService
+  url: https://kestrl.io/docs/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://kestrl.io/docs/privacy-policy
+- type: SignUp
+  url: https://kestrl.io/get-the-app
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
